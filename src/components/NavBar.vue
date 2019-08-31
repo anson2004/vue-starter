@@ -1,10 +1,10 @@
 <template>
  <div>
   <b-nav>
-    <b-nav-item active>Active</b-nav-item>
-    <b-nav-item>{{msg}}</b-nav-item>
-    <b-nav-item>Another Link</b-nav-item>
-    <b-nav-item disabled>Disabled</b-nav-item>
+    <b-nav-item active>Company</b-nav-item>
+    <b-nav-item>Service</b-nav-item>
+    <b-nav-item>About</b-nav-item>
+    <b-nav-item>Contact</b-nav-item>
   </b-nav>
 </div>
 </template>
