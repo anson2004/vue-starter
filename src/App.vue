@@ -1,10 +1,7 @@
 <template>
   <div id="app">
     <NavBar msg="Company"/> 
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    
     <router-view/>
   </div>
 </template>
@@ -21,7 +18,7 @@ export default {
 </script>
 
 <style>
-#app1 {
+#app22 {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
