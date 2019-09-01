@@ -6,9 +6,17 @@ Vue.use(VueI18n);
 const messages = {
     'en': {
         "company": 'Company',
+        "service": 'Service',
+        "contact": 'Contact',
+        "blog": 'Blog',
+        "about": 'About',
     },
     'zh': {
         "company": '公司',
+        "service": '服务',
+        "contact": '联系我们',
+        "blog": '博客',
+        "about": '关于',
     }
 };
 
