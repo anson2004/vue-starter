@@ -2,7 +2,7 @@
 <div class='container-fluid m-4 w-75'>
   <ul class="list-unstyled mt-4">
     <b-media tag="li">
-      <b-img slot="aside" :src="require('../assets/lapland1.jpg')"  width="100" alt="placeholder"></b-img>
+      <b-img slot="aside" :src="require('../assets/lapland1.jpg')"  width="400" alt="placeholder"></b-img>
 
       <h5 class="mt-0 mb-1">List-based media object</h5>
       <p class="mb-0">
@@ -13,7 +13,7 @@
     </b-media>
 
     <b-media tag="li" class="my-4">
-      <b-img slot="aside"  :src="require('../assets/lapland2.jpg')"  width="100" alt="placeholder"></b-img>
+      <b-img slot="aside"  :src="require('../assets/lapland2.jpg')"  width="400" alt="placeholder"></b-img>
 
       <h5 class="mt-0 mb-1">List-based media object</h5>
       <p class="mb-0">
@@ -24,7 +24,7 @@
     </b-media>
 
     <b-media tag="li">
-      <b-img slot="aside" :src="require('../assets/lapland3.jpg')" width="100"  alt="placeholder"></b-img>
+      <b-img slot="aside" :src="require('../assets/lapland3.jpg')" width="400"  alt="placeholder"></b-img>
 
       <h5 class="mt-0 mb-1">List-based media object</h5>
       <p class="mb-0">

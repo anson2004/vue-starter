@@ -1,15 +1,15 @@
 <template>
 <div>
   <b-navbar class='bavBackground' toggleable="lg" variant="light">
-    <b-navbar-brand href="#">My Compnay</b-navbar-brand>
+    <b-navbar-brand href="#">Olla</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item active> <router-link to="/company">{{ $t('company') }}</router-link></b-nav-item>
-        <b-nav-item><router-link to="/company">{{ $t('service') }}</router-link></b-nav-item>
-        <b-nav-item><router-link to="/about">{{ $t('about') }}</router-link></b-nav-item>
+        <b-nav-item><router-link to="/service">{{ $t('service') }}</router-link></b-nav-item>
+        <!-- b-nav-item><router-link to="/about">{{ $t('about') }}</router-link></b-nav-item -->
         <b-nav-item><router-link to="/contact">{{ $t('contact') }}</router-link></b-nav-item>
       </b-navbar-nav>
 
@@ -20,7 +20,7 @@
           <b-button size="sm" class="my-2 my-sm-0" type="submit">Search</b-button>
         </b-nav-form -->
 
-        <b-nav-item-dropdown text="Lang" right>
+        <b-nav-item-dropdown text="语言" right>
           <b-dropdown-item @click="handleLangChange('en')">EN</b-dropdown-item>
           <b-dropdown-item @click="handleLangChange('zh')">中文</b-dropdown-item>
         </b-nav-item-dropdown>

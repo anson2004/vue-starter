@@ -3,6 +3,7 @@ import Router from 'vue-router'
 // import Home from './views/Home.vue'
 import Company from './components/Company.vue'
 import Contact from './components/Contact.vue'
+import Service from './components/Service.vue'
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/company',
       name: 'company',
       component: Company
+    },
+    {
+      path: '/service',
+      name: 'service',
+      component: Service
     },
     {
       path: '/contact',

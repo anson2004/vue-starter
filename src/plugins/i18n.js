@@ -8,6 +8,7 @@ const messages = {
         "company": 'Company',
         "service": 'Service',
         "contact": 'Contact',
+        "contactus": 'Contact Us',
         "blog": 'Blog',
         "about": 'About',
     },
@@ -15,6 +16,7 @@ const messages = {
         "company": '公司',
         "service": '服务',
         "contact": '联系我们',
+        "contactus": '联系我们',
         "blog": '博客',
         "about": '关于',
     }
