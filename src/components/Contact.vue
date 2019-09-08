@@ -1,44 +1,30 @@
 <template>
-<div class="container-fluid">
-    <div class="mt-2"><h1>{{ $t('contactus') }}</h1></div>
-    <br />
-    <div class="row">
-        <div class="mt-3 col-md-6">
-           <div id="map-container-google-2" class="z-depth-1-half map-container">
-            <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-              style="border:0" allowfullscreen></iframe>
-          </div>
-          <address class="mt-4">
-            <strong>Example Inc.</strong><br>
-            1234 Example Street<br>
-            Antartica, Example 0987<br>
-            <a href = "mailto: yiqing.liang@yahoo.com">yiqing.liang@yahoo.com</a><br>
-            <abbr title="Phone">P:</abbr> (123) 456-7890
-          </address>
-        </div>
-        <br />
-        <div class="col-md-6">
-            <form class="my-form">
-                <div class="form-group">
-                    <label for="form-name">Name</label>
-                    <input type="email" class="form-control" id="form-name" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <label for="form-email">Email Address</label>
-                    <input type="email" class="form-control" id="form-email" placeholder="Email Address">
-                </div>
-                <div class="form-group">
-                    <label for="form-subject">Telephone</label>
-                    <input type="text" class="form-control" id="form-subject" placeholder="Subject">
-                </div>
-                <div class="form-group">
-                    <label for="form-message">Email your Message</label>
-                    <textarea class="form-control" id="form-message" placeholder="Message"></textarea>
-                </div>
-                <button class="btn btn-default" type="submit">Contact Us</button>                
-            </form>
-        </div>
+<div class="container-fluid bg-grey">
+  <h2 class="text-center mt-4">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="fa fa-map-marker" aria-hidden="true"></span> Tampere, Finland</p>
+      <p><span class="fa fa-phone"></span> +00 1515151515</p>
+      <p><span class="fa fa-envelope"></span> myemail@something.com</p>
     </div>
+    <div class="col-sm-7">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </template>
 
